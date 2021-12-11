@@ -16,7 +16,7 @@ class Navigation extends Component{
     var items= this.state.elements.map(element=>{return <NavElement value={element} click={this.onNavItemClick}/>})
     return(
       <div className={classes.Navbar}>
-        <img width="80px" src={logo} alt="logo"/>
+        <img width="80px" src={logo} alt="logo"/><p>{process.env.REACT_APP_DEV_ENVIRONMENT}</p>
         <div className={classes.NavContainer}>
         {items}
         </div>
