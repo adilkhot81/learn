@@ -1,17 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Layout from './Containers/Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {process.env.REACT_APP_DEV_ENVIRONMENT}
-        </p>
-        
-      </header>
-    </div>
+  <Layout/>
   );
 }
 

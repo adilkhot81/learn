@@ -1,0 +1,16 @@
+
+.NavItems{
+  margin:0 10px;
+  padding: 5px auto;
+  z-index: 1;
+  box-sizing: border-box;
+  cursor:pointer;
+  }
+
+  .NavItems:hover{
+    color:white;
+  }
+
+ @media (max-width:500px){
+.NavItems{display:none;}
+ }

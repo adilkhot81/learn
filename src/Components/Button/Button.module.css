@@ -1,0 +1,12 @@
+.DemoButton{
+  width: fit-content;
+  background-color: greenyellow;
+  border: 2px solid rgb(181, 182, 108);
+  padding: 10px;
+  margin: 2px;
+}
+
+.DemoButton:hover{
+  background-color: white;
+  color: green;
+}
